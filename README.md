@@ -41,14 +41,14 @@ For a conical tank (vertex down), the cross-sectional area changes with height. 
 $$\pi \left(\frac{R}{H}\right)^2 h^2 \frac{dh}{dt} = -C_d A_o \sqrt{2gh}$$
 $$\frac{dh}{dt} = -\frac{C_d A_o \sqrt{2g}}{\pi \left(\frac{R}{H}\right)^2} h^{-1.5}$$
 
-![Descripción](videos/coneTank.mp4)
+![Descripción](videos/coneTank.gif)
 
 #### Spherical Tank
 For a spherical tank, the cross-sectional area also changes with height. The resulting ODE is:
 $$\pi(2Rh - h^2) \frac{dh}{dt} = -C_d A_o \sqrt{2gh}$$
 $$\frac{dh}{dt} = -\frac{C_d A_o \sqrt{2gh}}{\pi(2Rh - h^2)}$$
 
-![Descripción](videos/sphericalTank.mp4)
+![Descripción](videos//sphericalTank.gif)
 
 ## Requirements and Usage
 
