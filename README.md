@@ -34,15 +34,21 @@ For a cylindrical tank, the cross-sectional area is constant. The resulting ODE 
 $$\pi R^2 \frac{dh}{dt} = -C_d A_o \sqrt{2gh}$$
 $$\frac{dh}{dt} = -\frac{C_d A_o \sqrt{2g}}{\pi R^2}\sqrt{h}$$
 
+![Descripción](videos/tankDrainage.gif)
+
 #### Conical Tank
 For a conical tank (vertex down), the cross-sectional area changes with height. The resulting ODE is:
 $$\pi \left(\frac{R}{H}\right)^2 h^2 \frac{dh}{dt} = -C_d A_o \sqrt{2gh}$$
 $$\frac{dh}{dt} = -\frac{C_d A_o \sqrt{2g}}{\pi \left(\frac{R}{H}\right)^2} h^{-1.5}$$
 
+![Descripción](videos/coneTank.mp4)
+
 #### Spherical Tank
 For a spherical tank, the cross-sectional area also changes with height. The resulting ODE is:
 $$\pi(2Rh - h^2) \frac{dh}{dt} = -C_d A_o \sqrt{2gh}$$
 $$\frac{dh}{dt} = -\frac{C_d A_o \sqrt{2gh}}{\pi(2Rh - h^2)}$$
+
+![Descripción](videos/sphericalTank.mp4)
 
 ## Requirements and Usage
 
